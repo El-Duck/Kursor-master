@@ -167,9 +167,9 @@ public class SubMainActivity extends AppCompatActivity {
             case R.id.teacher_list:
                 loadFragment(listFragment);
                 break;
-            case R.id.schedule:
-                loadFragment(scheduleFragment);
-                break;
+//            case R.id.schedule:
+//            loadFragment(scheduleFragment);
+//                break;
         }
         menuItem.setChecked(true);
         setTitle(menuItem.getTitle());
