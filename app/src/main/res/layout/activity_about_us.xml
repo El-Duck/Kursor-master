@@ -6,4 +6,31 @@
     android:layout_height="match_parent"
     tools:context=".aboutUsActivity">
 
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:text="Happy Users Inc\n\n
+
+Алиса Оленчук - Дизайнер (Гимназия №190)\n
+
+Тимофей Стабуль - Backend-разработчик (Гимназия №2)\n
+
+Александр Крестьянинов - Android-разработчик (ФМЛ №239)\n
+
+Александр Нагорняк - Frontend-mobile-разработчик (Выпускник школы №303)\n
+
+Платон Волгарёв - Frontend-разработчик (Гимназия №2)\n
+
+Фёдор Педенко - Автор идеи и Генеральный директор 'Happy Users Inc' (Выпускник школы №307)\n\n
+
+Мы решили создать 'Курсор' с целью упростить жизнь ученикам и учителям российских школ. Мы считаем, что оптимизацией учебного процесса могут и должны заниматься не только учителя и администрация, но и сами ученики. Именно поэтому мы просим вас присылать все ваши идеи нам!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
